@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/homeFragment">
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.project1.home.HomeFragment"
+        android:label="HomeFragment"
+        tools:layout="@layout/home_fragment">
+        <action
+            android:id="@+id/action_homeFragment_to_popularDetailFragment"
+            app:destination="@id/popularDetailFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_recommendedDetailFragment"
+            app:destination="@id/recommendedDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/popularDetailFragment"
+        android:name="com.example.project1.detail_popular.PopularDetailFragment"
+        android:label="PopularDetailFragment"
+        tools:layout="@layout/popular_detail_fragment">
+        <action
+            android:id="@+id/action_popularDetailFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/recommendedDetailFragment"
+        android:name="com.example.project1.detail_recommended.RecommendedDetailFragment"
+        android:label="RecommendedDetailFragment"
+        tools:layout="@layout/recommended_detail_fragment">
+        <argument
+            android:name="selectedProperty"
+            app:argType="com.example.project1.model.RecommendedHotelData"/>
+        <action
+            android:id="@+id/action_recommendedDetailFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+
+</navigation>

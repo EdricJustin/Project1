@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidStudioProject/Project1/app/src/main/res/drawable/custom_button.xml" value="0.2365" />
+        <entry key="..\:/AndroidStudioProject/Project1/app/src/main/res/drawable/custom_button2.xml" value="0.2365" />
+        <entry key="..\:/AndroidStudioProject/Project1/app/src/main/res/drawable/custom_edit_text.xml" value="0.121" />
+        <entry key="..\:/AndroidStudioProject/Project1/app/src/main/res/drawable/custom_menu.xml" value="0.2365" />
+        <entry key="..\:/AndroidStudioProject/Project1/app/src/main/res/drawable/custom_popular_detail_image.xml" value="0.2365" />
+        <entry key="..\:/AndroidStudioProject/Project1/app/src/main/res/drawable/custom_search.xml" value="0.2365" />
+        <entry key="..\:/AndroidStudioProject/Project1/app/src/main/res/drawable/ic_broken_image.xml" value="0.2365" />
+        <entry key="..\:/AndroidStudioProject/Project1/app/src/main/res/drawable/loading_img.xml" value="0.2365" />
+        <entry key="..\:/AndroidStudioProject/Project1/app/src/main/res/drawable/tab_indicator_default.xml" value="0.2365" />
+        <entry key="..\:/AndroidStudioProject/Project1/app/src/main/res/drawable/tab_indicator_selected.xml" value="0.2365" />
+        <entry key="..\:/AndroidStudioProject/Project1/app/src/main/res/drawable/tab_selector.xml" value="0.2365" />
+        <entry key="..\:/AndroidStudioProject/Project1/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
+        <entry key="..\:/AndroidStudioProject/Project1/app/src/main/res/layout/home_fragment.xml" value="0.176" />
+        <entry key="..\:/AndroidStudioProject/Project1/app/src/main/res/layout/list_popular_detail.xml" value="1.0" />
+        <entry key="..\:/AndroidStudioProject/Project1/app/src/main/res/layout/list_popular_hotel.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProject/Project1/app/src/main/res/layout/list_recommended_detail.xml" value="0.20521590423257802" />
+        <entry key="..\:/AndroidStudioProject/Project1/app/src/main/res/layout/list_recommended_hotel.xml" value="0.8800000000000001" />
+        <entry key="..\:/AndroidStudioProject/Project1/app/src/main/res/layout/popular_detail_fragment.xml" value="0.2" />
+        <entry key="..\:/AndroidStudioProject/Project1/app/src/main/res/layout/recommended_detail_fragment.xml" value="0.264" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
